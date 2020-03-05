@@ -1,0 +1,32 @@
+< version="1" name="Mac OS X 10.5+ copy" parent="Mac OS X 10.5+">
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
+  <action id="CheckinProject" />
+  <action id="EditorNextWord" />
+  <action id="EditorPreviousWord" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="meta o" />
+  </action>
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="meta k" />
+  </action>
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="meta i" />
+    <keyboard-shortcut first-keystroke="meta u" />
+  </action>
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="meta k" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="GotoChangedFile" />
+  <action id="GotoClass" />
+  <action id="GotoSuperMethod" />
+</keymap>
+
+说明
+0, AS/WS idea IDE快捷键配合vi插件操作起来简直一绝
+1，meta 就是Mac的command键
+2，这几个快捷键足够了，其他复制粘贴等使用vim插件即可，熟练了可以抛弃鼠标了，mac的方向键也很小，不如vi的hjkl移动起来那么迅速
