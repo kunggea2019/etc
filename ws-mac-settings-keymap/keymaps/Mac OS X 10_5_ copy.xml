@@ -1,0 +1,50 @@
+<keymap version="1" name="Mac OS X 10.5+ copy" parent="Mac OS X 10.5+">
+  <action id="ActivateProjectToolWindow" />
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
+  <action id="CheckinProject" />
+  <action id="DuplicatesForm.SendToLeft" />
+  <action id="EditorNextWord" />
+  <action id="EditorPreviousWord" />
+  <action id="FileChooser.GotoHome" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="meta o" />
+  </action>
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="meta k" />
+  </action>
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="meta i" />
+    <keyboard-shortcut first-keystroke="meta u" />
+  </action>
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="meta k" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="GotoChangedFile" />
+  <action id="GotoClass" />
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="meta b" />
+    <mouse-shortcut keystroke="meta button1" />
+    <mouse-shortcut keystroke="button2" />
+    <keyboard-shortcut first-keystroke="f6" />
+  </action>
+  <action id="GotoSuperMethod" />
+  <action id="Move" />
+  <action id="RecentFiles" />
+  <action id="RevealIn">
+    <keyboard-shortcut first-keystroke="meta e" />
+  </action>
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="alt enter" />
+    <keyboard-shortcut first-keystroke="meta 1" />
+  </action>
+  <action id="SwitcherIterateItems" />
+  <action id="SwitcherRecentEditedChangedToggleCheckBox" />
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
+</keymap>
