@@ -55,6 +55,18 @@ U 悔棋整行的操作
 = 格式化代码
 
 
+http://wulfric.me/2016/05/editor-vim-emacs/
+vim 的基础快捷键非常简洁，比如移动的hjklweb，删除的dx，复制粘贴相关的yp，
+配合 vim 独有的 text object 属性（i 表示 in，a 表示 around），可以组合出非常强大的快捷操作。
+
+比如：
+di"	删除"包裹中的字符串， "word" 会删除 word
+da"	删除"包裹和包裹中的字符串， "word" 会删除 "word"
+vi"	选中，"word" 会选中 word
+va"	选中，"word" 会选中 "word"
+yi" 和 ya"	你猜？
+
+
 感想：
 
 感叹bill joy的伟大！硬件软件通吃的geek！
