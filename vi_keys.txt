@@ -10,7 +10,7 @@ dt[tag] dT[tag] 删除到指定的字符
 
 daw 删除一个word，无论光标在word的任何地方都可以
 
-J 合并两行
+J 合并两行 再也不用del删除右边了，奈何mac还没有del键
 
 :[number] 跳转到某行
 
@@ -55,6 +55,11 @@ U 悔棋整行的操作
 ~ 大小写转换
 
 = 格式化代码
+
+% 匹配各种括号对应 
+
+
+. 重复上个命令
 
 
 http://wulfric.me/2016/05/editor-vim-emacs/
