@@ -16,6 +16,8 @@ J 合并两行 再也不用del删除右边了，奈何mac还没有del键
 
 33G(Goto) 跳转到33行
 
+33gg(Goto) 跳转到33行
+
 b 跳转到word的首处，可以重复
 
 w，e 跳转到下个word
