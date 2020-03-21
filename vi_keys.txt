@@ -115,9 +115,12 @@ https://www.bilibili.com/video/av73146963?p=5
 
 
 
-：help 很强大
+：help 很强大 但是是英文的
 比如 
 6. Text object selection			 object-select text-objects 
 						 v_a v_i
+
+// 中文help 厉害了
+http://vimcdoc.sourceforge.net/doc/motion.html#motion.txt
 
 
