@@ -115,6 +115,9 @@ https://www.bilibili.com/video/av73146963?p=5
 
 
 
-
+：help 很强大
+比如 
+6. Text object selection			 object-select text-objects 
+						 v_a v_i
 
 
