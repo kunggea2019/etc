@@ -142,6 +142,8 @@ https://www.bilibili.com/video/av73146963?p=5
 
 
 ：help 很强大 但是是英文的
+help J  查看 J的用法
+help x  查看 x的用法
 比如 
 6. Text object selection			 object-select text-objects 
 						 v_a v_i
