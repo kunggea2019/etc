@@ -27,6 +27,7 @@ w，e 跳转到下个word
 $ 跳转到行尾
 
 ctrl+v block选择，可以垂直选择修改，鼠标做不到的操作
+ctrl+r 反悔一步操作 类似pc的ctrl+z
 
 R 替换一堆字符  替换模式
 
@@ -94,6 +95,13 @@ Emacs当然也很强，但是总是得按着ctrl，不太习惯。
 vi的玄学在于专注文字的处理，并非IDE。
 
 敬 bill！
+
+text object   操作符等待模式  操作+motion
+di[   da[   vip vis     =G   =gg 这些都是，vim的净化所在。
+
+
+台湾老哥最好的教程了vim
+https://www.bilibili.com/video/av73146963?p=5
 
 
 
