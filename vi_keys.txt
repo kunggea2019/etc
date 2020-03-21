@@ -109,6 +109,11 @@ https://www.bilibili.com/video/av73146963?p=5
 
 
 
+回到更老的跳转位置，使用命令"CTRL-O"；与它相对应的，是"CTRL-I"，它跳转到更新的跳转位置
+(:help CTRL-O和:help CTRL-I)。这两个命令前面可以加数字来表示倍数。
+
+
+
 
 
 
