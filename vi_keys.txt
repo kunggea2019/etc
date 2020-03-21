@@ -99,6 +99,8 @@ vi的玄学在于专注文字的处理，并非IDE。
 text object   操作符等待模式  操作+motion
 di[   da[   vip vis     =G   =gg 这些都是，vim的净化所在。
 
+折叠zf+motion  zd+motion 打开折叠
+
 
 台湾老哥最好的教程了vim
 https://www.bilibili.com/video/av73146963?p=5
