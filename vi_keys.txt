@@ -10,6 +10,16 @@
 搜索let
 /let
 
+// 常用的屏幕内容滚动·
+ctrl + e 下滚一行
+ctrl + y 上滚一行
+
+ctrl + u 上滚半个屏幕
+ctrl + d 下滚半个幕
+
+ctrl + b 上滚一个屏幕
+ctrl + f 下滚一个屏幕
+
 di[tag] da[tag] 删除括号里面的内容
 
 dt[tag] dT[tag] 删除到指定的字符
