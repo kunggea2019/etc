@@ -4,6 +4,13 @@
 
 我常用的idea IDE的vim插件常用的操作：
 
+y不能像yy或dd之后自动下一行。
+有一种较为方便的方法是重新映射o为Enter键，可直接按下Enter打开新一行，而依然在Normal Mode，不用再按esc键。>    把下一行代码添加到.vimrc文件中。
+nmap <CR> o<Esc>
+类似linux里面的alias重新映射按键的组合
+
+
+
 搜索替换 1_6_0改为2_0_0
 :%s/1_6_0/2_0_0/gc
 
