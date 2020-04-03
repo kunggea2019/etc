@@ -1,3 +1,18 @@
+IDE排行 
+1  IDEA全家桶，Android Studio,WS,IntelJ,无论UI有些金属感MAC版，快捷键配置，都是世界第一，尤其mac上使用，唯独耗内存挺大
+2  VS Code, 体积小，海量插件，UI过于扁平化了
+
+编辑器排行
+1  vi/vim   每种IDE都有插件可以使用，只是支持程度不同，IDEA支持最棒，vs code差点
+2  mac text  简洁就完事了
+
+最优方案
+
+VIM+IDEA 天下第一了就是
+
+
+
+
 现在IDE的发展并不需要VIM配置各种插件弄成小型IDE
 
 我认为vim现在的用处在于解放鼠标选中，移动光标
