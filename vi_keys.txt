@@ -38,6 +38,7 @@ gt    切换标签
 
 设定
 :echo $MYVIMRC  显示vim的设定文件路径
+:version"命令，就可以看到关于vimrc的路径设置规则
 
 常用设定
 set nu
