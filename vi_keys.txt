@@ -36,6 +36,15 @@ gt    切换标签
 :new  新开文档 水平
 :vnew 新开文档 垂直
 
+设定
+:echo $MYVIMRC  显示vim的设定文件路径
+
+常用设定
+set nu
+set cursorline       显示行的线提示
+set encoding=utf-8   字符集
+set guifont=Consolas:h12:cANSI   字体
+
 
 
 搜索let
