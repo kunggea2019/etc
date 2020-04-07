@@ -29,8 +29,28 @@ nmap <CR> o<Esc>
 搜索替换 1_6_0改为2_0_0
 :%s/1_6_0/2_0_0/gc
 
+文件操作
+:tabe 新标签
+gt    切换标签
+
+:new  新开文档 水平
+:vnew 新开文档 垂直
+
+设定
+:echo $MYVIMRC  显示vim的设定文件路径
+:version"命令，就可以看到关于vimrc的路径设置规则
+
+常用设定
+set nu
+set cursorline       显示行的线提示
+set encoding=utf-8   字符集
+set guifont=Consolas:h12:cANSI   字体
+
+
+
 搜索let
 /let
+
 
 // 常用的屏幕内容滚动·
 ctrl + e 下滚一行
