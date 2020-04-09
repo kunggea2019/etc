@@ -264,6 +264,7 @@ Vim的语法只有一条额外规则，即当一个操作符命令被连续调�
 
 
 xcode快捷键调试常用
+xcode不支持快捷键冲突,IDEA就可以
 清空控制台log  command+K
 搜索           command+F
 搜索下一个     command+G
