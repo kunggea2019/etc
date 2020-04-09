@@ -263,3 +263,8 @@ Vim的语法只有一条额外规则，即当一个操作符命令被连续调�
 
 
 
+xcode快捷键调试常用
+清空控制台log  command+K
+搜索           command+F
+搜索下一个     command+G
+   
