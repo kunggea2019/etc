@@ -4,20 +4,26 @@ call plug#begin('~/.vim/plugged')
 "Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 "Plug 'junegunn/fzf.vim'
 "Plug 'fholgado/minibufexpl.vim'
+Plug 'prabirshrestha/async.vim'
+Plug 'prabirshrestha/vim-lsp'
+Plug 'mattn/vim-lsp-settings'
 Plug 'vim-airline/vim-airline'
 Plug 'kien/ctrlp.vim'
 "Plug 'ryanoasis/vim-devicons'
 Plug 'scrooloose/nerdtree'
-"Plug 'Valloric/YouCompleteMe'
+Plug 'Valloric/YouCompleteMe'
 Plug 'jistr/vim-nerdtree-tabs'
 call plug#end()
 
 " no clear screen when exit vim
 set t_ti= t_te=
 set nu
+"底部一行，右下角显示输入的内容
+set showcmd
 colorscheme macvim
+set guifont=Menlo-Regular:h13
 set hls
-set guifont=Menlo Font:h16
+"set guifont=Menlo Font:h16
 "不能像yy或dd之后自动下一行。
 "有一种较为方便的方法是重新映射o为Enter键，可直接按下Enter打开新一行，而依然在Normal Mode，不用再按esc键。把下一行代码添加到.vimrc文件中。
 nmap <CR> o<Esc>
@@ -68,6 +74,31 @@ highlight Lf_hl_matchRefine  gui=bold guifg=Magenta cterm=bold ctermfg=green
 
 set encoding=utf-8
 set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
+
+if executable('pyls')
+    " pip install python-language-server
+    au User lsp_setup call lsp#register_server({
+        \ 'name': 'pyls',
+        \ 'cmd': {server_info->['pyls']},
+        \ 'whitelist': ['python'],
+        \ })
+endif
+
+function! s:on_lsp_buffer_enabled() abort
+    setlocal omnifunc=lsp#complete
+    setlocal signcolumn=yes
+    nmap <buffer> gd <plug>(lsp-definition)
+    nmap <buffer> <f2> <plug>(lsp-rename)
+    " refer to doc to add more commands
+endfunction
+
+augroup lsp_install
+    au!
+    " call s:on_lsp_buffer_enabled only for languages that has the server registered.
+    autocmd User lsp_buffer_enabled call s:on_lsp_buffer_enabled()
+augroup END
+
+
 
 
 
