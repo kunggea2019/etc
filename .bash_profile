@@ -13,7 +13,8 @@ alias y="yarn start"
 alias ra="react-native run-android"
 alias jh="/usr/libexec/java_home -V"
 alias p="pwd"
-alias lg="adb logcat -v time | grep"
+alias lg="adb logcat -v time"
+alias lgp="adb logcat -v time | grep"
 
 LC_ALL="zh_CN.UTF-8"
 export ANDROID_HOME=/Users/kun/Library/Android/sdk/
