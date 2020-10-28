@@ -1,0 +1,91 @@
+<keymap version="1" name="Windows copy" parent="$default">
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
+  <action id="CheckinProject" />
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="shift alt w" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="ctrl w" />
+    <keyboard-shortcut first-keystroke="alt w" />
+  </action>
+  <action id="Diff.NextChange" />
+  <action id="Diff.PrevChange" />
+  <action id="DuplicatesForm.SendToLeft" />
+  <action id="EditorSelectWord" />
+  <action id="EditorUnSelectWord" />
+  <action id="ExportSettings">
+    <keyboard-shortcut first-keystroke="shift ctrl alt o" />
+  </action>
+  <action id="ExternalSystem.ProjectRefreshAction" />
+  <action id="FileChooser.GotoHome" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="ctrl f12" />
+    <keyboard-shortcut first-keystroke="ctrl h" />
+  </action>
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="alt f3" />
+    <keyboard-shortcut first-keystroke="ctrl k" />
+  </action>
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="f3" />
+    <keyboard-shortcut first-keystroke="ctrl l" />
+    <keyboard-shortcut first-keystroke="ctrl f" />
+    <keyboard-shortcut first-keystroke="ctrl k" />
+  </action>
+  <action id="FindWordAtCaret">
+    <keyboard-shortcut first-keystroke="ctrl f3" />
+    <keyboard-shortcut first-keystroke="ctrl f" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="GotoBookmark1" />
+  <action id="IdeaVim.ReloadVimRc.reload" />
+  <action id="MethodHierarchy">
+    <keyboard-shortcut first-keystroke="shift ctrl h" />
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
+  <action id="NextTab" />
+  <action id="OptimizeImports">
+    <keyboard-shortcut first-keystroke="ctrl alt o" />
+    <keyboard-shortcut first-keystroke="ctrl o" />
+  </action>
+  <action id="OverrideMethods" />
+  <action id="PreviousTab" />
+  <action id="RecentFiles" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
+  <action id="RevealIn">
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
+  <action id="Runner.CloseAllViews">
+    <keyboard-shortcut first-keystroke="shift ctrl w" />
+  </action>
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="alt enter" />
+    <keyboard-shortcut first-keystroke="ctrl 1" />
+  </action>
+  <action id="SwitcherIterateItems" />
+  <action id="SwitcherRecentEditedChangedToggleCheckBox" />
+  <action id="TypeHierarchy" />
+  <action id="TypeHierarchyBase.BaseOnThisType" />
+  <action id="Vcs.Log.GoToRef">
+    <keyboard-shortcut first-keystroke="alt f3" />
+  </action>
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="ctrl m" />
+  </action>
+  <action id="tasks.close" />
+</keymap>
