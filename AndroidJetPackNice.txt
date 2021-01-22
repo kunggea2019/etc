@@ -1,0 +1,15 @@
+Google推出的jetpack目的
+ 1响应式
+ 2单一数据源
+ 3控件可以监听生命周期
+ 4统一的架构范式 垃圾mvp
+ 
+ 
+
+感受：
+livedada   lifecycle  databinding目的
+类似于  响应式设计的vue的双向绑定，统一数据store数据一致性，   React是state单向绑定，不能实现多页面同时响应一个共享数据的改变
+ Lifecycle、ViewModel、LiveData可以实现Vue的响应式效果
+ 也规避了之前安卓的数据横竖屏，ui不一致， 数据需要java单例来管理，但是没法实现响应式通知其他页面，eventbus的弊端没法追溯  单一数据源
+ 
+ 这3个是最核心，最能解决问题的组件，可以研究研究。
