@@ -13,3 +13,11 @@ livedada   lifecycle  databinding目的
  也规避了之前安卓的数据横竖屏，ui不一致， 数据需要java单例来管理，但是没法实现响应式通知其他页面，eventbus的弊端没法追溯  单一数据源
  
  这3个是最核心，最能解决问题的组件，可以研究研究。
+ 
+ 
+ 
+ 框架特性借鉴
+ React Native：  flexbox布局  state单向数据源更新
+ Vue vuex        双向绑定  vuex 全局数据更新通知响应式ui
+ js              不用泛型，不用bean来限制编码
+ 
