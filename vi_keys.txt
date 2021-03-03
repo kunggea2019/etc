@@ -39,6 +39,9 @@ gt    切换标签
 :new  新开文档 水平
 :vnew 新开文档 垂直
 
+windows系统的GVim的设定文件是_vimrc
+etc项目里面有设定好了的兼容utf8，字体等等
+
 设定
 :echo $MYVIMRC  显示vim的设定文件路径
 :version"命令，就可以看到关于vimrc的路径设置规则
